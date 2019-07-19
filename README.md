@@ -35,4 +35,7 @@ If the package script runs correctly you should have the directory `toolshed`
 with all the needed serpico tools and wrappers
 
 ## install tutorials
+
+```shell
 git clone https://gitlab.inria.fr/serpico/bioimagepy-tutorial.git
+```
