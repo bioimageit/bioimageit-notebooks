@@ -27,8 +27,10 @@ git clone https://gitlab.inria.fr/serpico/bioimagepy.git
 
 ```shell
 git clone https://gitlab.inria.fr/serpico/serpico-package.git
-chmod u+x ./serpico-package/package.sh
-./serpico-package/package.sh
+cd serpico-package
+chmod u+x ./package.sh
+./package.sh
+cd ..
 ```
 
 If the package script runs correctly you should have the directory `toolshed` 
