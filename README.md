@@ -41,3 +41,10 @@ with all the needed serpico tools and wrappers
 ```shell
 git clone https://gitlab.inria.fr/serpico/bioimagepy-tutorial.git
 ```
+
+## start tutorials
+
+```shell
+cd bioimagepy-tutorial
+jupyter-notebook
+```
