@@ -36,6 +36,9 @@ cd ..
 If the package script runs correctly you should have the directory `toolshed` 
 with all the needed serpico tools and wrappers
 
+Please edit the `config.json` file to set the *fiji* and *python* path of your 
+system
+
 ## install tutorials
 
 ```shell
