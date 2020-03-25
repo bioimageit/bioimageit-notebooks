@@ -1,0 +1,14 @@
+{
+    "metadata": {
+        "service": "LOCAL"
+    },
+    "process": {
+        "service": "LOCAL",
+        "xml_dirs": [
+            "../bioimagepy/tests/test_processes_local/"
+        ]
+    },
+    "runner": {
+        "service": "LOCAL"
+    }
+}
