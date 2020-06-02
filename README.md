@@ -8,46 +8,14 @@ library.
 To run BioImagePy tutorials you need to install python3 and jupyter notebooks
 using pip or conda.
 
-Then you need to install bioimagepy, the serpico package and finally the tutorials.
-
-## Create the working directory 
-
+Then you need to install bioimagepy, the serpico package and the bioimagepy toolboxes.
+The easiest method is to install the pre-packaged zip from:
+https://gitlab.inria.fr/bioimage-it/package.git
+and install then start jupyter:
 ```shell
-mkdir bioimagepy
-cd bioimagepy
-```
-
-## install bioimagepy
-
-```shell
-git clone https://gitlab.inria.fr/serpico/bioimagepy.git
-```
-
-## install serpico package
-
-```shell
-git clone https://gitlab.inria.fr/serpico/serpico-package.git
-cd serpico-package
-chmod u+x ./package.sh
-./package.sh
-cd ..
-```
-
-If the package script runs correctly you should have the directory `toolshed` 
-with all the needed serpico tools and wrappers
-
-Please edit the `config.json` file to adapt the *fiji* and *python* path to your 
-system
-
-## install tutorials
-
-```shell
-git clone https://gitlab.inria.fr/serpico/bioimagepy-tutorial.git
-```
-
-## start tutorials
-
-```shell
-cd bioimagepy-tutorial
-jupyter-notebook
+cd bioimageit
+chmod u+x install.sh
+./install.sh
+chmod u+x jupyter.sh
+./jupyter.sh
 ```
