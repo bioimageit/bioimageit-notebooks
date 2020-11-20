@@ -5,10 +5,19 @@
     "process": {
         "service": "LOCAL",
         "xml_dirs": [
-            "../bioimagepy/tests/test_processes_local/"
-        ]
+            "../toolboxes/tools"
+        ],
+        "categories": "../toolboxes/toolboxes.json",
+        "tools": "../toolboxes/tools.json"
     },
     "runner": {
-        "service": "LOCAL"
+        "service": "SINGULARITY",
+        "working_dir": "../userdata/"
+    },
+    "user": {
+        "name": "sprigent"
+    },
+    "gui": {
+        "tmp": "../userdata/"
     }
 }
