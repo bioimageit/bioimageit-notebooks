@@ -1,21 +1,16 @@
 # BioImagePy Tutorial
 
-This package contains python notebooks tutorials to learn using the BioImagePy
-library. 
+This package contains python notebooks tutorials to learn using the BioImageIT API (*bioimageit_core*). 
 
 # Installation
 
-To run BioImagePy tutorials you need to install python3 and jupyter notebooks
-using pip or conda.
+To run BioImageIT API tutorials you need to install bioimageit_core.
+The easiest method is to install BioImageIT from https://bioimageit.github.io/#/install.
 
-Then you need to install bioimagepy, the serpico package and the bioimagepy toolboxes.
-The easiest method is to install the pre-packaged zip from:
-https://gitlab.inria.fr/bioimage-it/package.git
-and install then start jupyter:
+Then start jupyter in the BioImageIT environement with the provided script:
+
 ```shell
-cd bioimageit
-chmod u+x install.sh
-./install.sh
-chmod u+x jupyter.sh
-./jupyter.sh
+/Your/BioImageIT/Install_Directory/jupyter.sh
 ```
+
+And open the directory *bioimageit_notebooks* from the Jupyter interface
